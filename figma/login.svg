@@ -1,0 +1,69 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="1024" fill="#F7F5FC"/>
+
+<!-- Main Card -->
+<rect x="240" y="132" width="960" height="760" rx="24" fill="white"/>
+
+<!-- Right Panel -->
+<rect x="800" y="132" width="400" height="760" rx="0" fill="#F3ECFF"/>
+
+<!-- Logo Circle -->
+<circle cx="350" cy="230" r="36" fill="#EEE6FF"/>
+
+<!-- Logo Text -->
+<text x="410" y="242" font-family="Poppins, Arial" font-size="32" font-weight="700" fill="#5B35D5">
+Squirrel Banking
+</text>
+
+<!-- Welcome -->
+<text x="310" y="360" font-family="Poppins, Arial" font-size="42" font-weight="700" fill="#111111">
+Welcome back!
+</text>
+
+<text x="310" y="410" font-family="Poppins, Arial" font-size="18" fill="#777777">
+Please login to your account
+</text>
+
+<!-- Email Input -->
+<rect x="310" y="470" width="440" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="340" y="508" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Email
+</text>
+
+<!-- Password Input -->
+<rect x="310" y="560" width="440" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="340" y="598" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Password
+</text>
+
+<!-- Remember -->
+<rect x="310" y="670" width="18" height="18" stroke="#444444"/>
+<text x="345" y="685" font-family="Poppins, Arial" font-size="15" fill="#111111">
+Remember me
+</text>
+
+<!-- Forgot -->
+<text x="600" y="685" font-family="Poppins, Arial" font-size="15" fill="#5B35D5">
+Forgot password?
+</text>
+
+<!-- Button -->
+<rect x="310" y="735" width="440" height="62" rx="14" fill="#5B35D5"/>
+<text x="500" y="774" font-family="Poppins, Arial" font-size="22" font-weight="600" fill="white">
+Login
+</text>
+
+<!-- Register -->
+<text x="385" y="870" font-family="Poppins, Arial" font-size="16" fill="#777777">
+Don't have an account?
+</text>
+
+<text x="600" y="870" font-family="Poppins, Arial" font-size="16" font-weight="600" fill="#5B35D5">
+Register
+</text>
+
+<!-- Decorative Right -->
+<circle cx="1000" cy="650" r="120" fill="#DCCBFF"/>
+<circle cx="1080" cy="500" r="60" fill="#E9DDFF"/>
+<circle cx="930" cy="450" r="40" fill="#EFE7FF"/>
+</svg>

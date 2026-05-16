@@ -1,0 +1,106 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="1440" height="1024" fill="#F7F5FC"/>
+
+<!-- Sidebar -->
+<rect width="260" height="1024" fill="#5B35D5"/>
+
+<!-- Logo -->
+<circle cx="70" cy="80" r="28" fill="#EEE6FF"/>
+<text x="120" y="92" font-family="Poppins, Arial" font-size="28" font-weight="700" fill="white">
+Squirrel Bank
+</text>
+
+<!-- Menu -->
+<text x="60" y="180" font-family="Poppins, Arial" font-size="20" fill="white">
+Dashboard
+</text>
+
+<text x="60" y="240" font-family="Poppins, Arial" font-size="20" fill="#D9CFFF">
+Transactions
+</text>
+
+<text x="60" y="300" font-family="Poppins, Arial" font-size="20" fill="#D9CFFF">
+Cards
+</text>
+
+<text x="60" y="360" font-family="Poppins, Arial" font-size="20" fill="#D9CFFF">
+Settings
+</text>
+
+<!-- Header -->
+<text x="320" y="90" font-family="Poppins, Arial" font-size="40" font-weight="700" fill="#111111">
+Dashboard
+</text>
+
+<text x="320" y="130" font-family="Poppins, Arial" font-size="18" fill="#777777">
+Welcome back, Arcanine
+</text>
+
+<!-- Balance Card -->
+<rect x="320" y="180" width="420" height="220" rx="24" fill="#5B35D5"/>
+
+<text x="360" y="250" font-family="Poppins, Arial" font-size="22" fill="white">
+Total Balance
+</text>
+
+<text x="360" y="330" font-family="Poppins, Arial" font-size="48" font-weight="700" fill="white">
+$12,450
+</text>
+
+<!-- Income Card -->
+<rect x="780" y="180" width="260" height="100" rx="20" fill="white"/>
+
+<text x="820" y="225" font-family="Poppins, Arial" font-size="18" fill="#777777">
+Income
+</text>
+
+<text x="820" y="260" font-family="Poppins, Arial" font-size="30" font-weight="700" fill="#111111">
++$3,200
+</text>
+
+<!-- Expense Card -->
+<rect x="1080" y="180" width="260" height="100" rx="20" fill="white"/>
+
+<text x="1120" y="225" font-family="Poppins, Arial" font-size="18" fill="#777777">
+Expense
+</text>
+
+<text x="1120" y="260" font-family="Poppins, Arial" font-size="30" font-weight="700" fill="#111111">
+-$1,250
+</text>
+
+<!-- Recent Transactions -->
+<rect x="320" y="450" width="1020" height="420" rx="24" fill="white"/>
+
+<text x="360" y="510" font-family="Poppins, Arial" font-size="28" font-weight="700" fill="#111111">
+Recent Transactions
+</text>
+
+<!-- Transaction Rows -->
+<rect x="360" y="560" width="940" height="70" rx="14" fill="#F7F5FC"/>
+<text x="390" y="605" font-family="Poppins, Arial" font-size="18" fill="#111111">
+Netflix Subscription
+</text>
+<text x="1180" y="605" font-family="Poppins, Arial" font-size="18" fill="#E74C3C">
+-$15
+</text>
+
+<rect x="360" y="660" width="940" height="70" rx="14" fill="#F7F5FC"/>
+<text x="390" y="705" font-family="Poppins, Arial" font-size="18" fill="#111111">
+Salary Deposit
+</text>
+<text x="1180" y="705" font-family="Poppins, Arial" font-size="18" fill="#2ECC71">
++$2,500
+</text>
+
+<rect x="360" y="760" width="940" height="70" rx="14" fill="#F7F5FC"/>
+<text x="390" y="805" font-family="Poppins, Arial" font-size="18" fill="#111111">
+Coffee Shop
+</text>
+<text x="1180" y="805" font-family="Poppins, Arial" font-size="18" fill="#E74C3C">
+-$8
+</text>
+
+</svg>

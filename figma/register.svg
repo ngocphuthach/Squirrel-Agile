@@ -1,0 +1,74 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="1024" fill="#F7F5FC"/>
+
+<!-- Main Card -->
+<rect x="220" y="92" width="1000" height="840" rx="24" fill="white"/>
+
+<!-- Right Panel -->
+<rect x="820" y="92" width="400" height="840" fill="#F3ECFF"/>
+
+<!-- Logo -->
+<circle cx="340" cy="190" r="36" fill="#EEE6FF"/>
+<text x="400" y="202" font-family="Poppins, Arial" font-size="32" font-weight="700" fill="#5B35D5">
+Squirrel Banking
+</text>
+
+<!-- Title -->
+<text x="290" y="300" font-family="Poppins, Arial" font-size="42" font-weight="700" fill="#111111">
+Create Account
+</text>
+
+<text x="290" y="350" font-family="Poppins, Arial" font-size="18" fill="#777777">
+Please fill in the information below
+</text>
+
+<!-- Full Name -->
+<rect x="290" y="420" width="460" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="320" y="458" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Full Name
+</text>
+
+<!-- Email -->
+<rect x="290" y="510" width="460" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="320" y="548" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Email
+</text>
+
+<!-- Password -->
+<rect x="290" y="600" width="460" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="320" y="638" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Password
+</text>
+
+<!-- Confirm Password -->
+<rect x="290" y="690" width="460" height="60" rx="12" fill="white" stroke="#D9D9D9"/>
+<text x="320" y="728" font-family="Poppins, Arial" font-size="16" fill="#9A9A9A">
+Confirm Password
+</text>
+
+<!-- Terms -->
+<rect x="290" y="780" width="18" height="18" stroke="#444444"/>
+<text x="320" y="795" font-family="Poppins, Arial" font-size="15" fill="#111111">
+I agree to the Terms & Conditions
+</text>
+
+<!-- Register Button -->
+<rect x="290" y="830" width="460" height="62" rx="14" fill="#5B35D5"/>
+<text x="470" y="870" font-family="Poppins, Arial" font-size="22" font-weight="600" fill="white">
+Register
+</text>
+
+<!-- Login Link -->
+<text x="380" y="930" font-family="Poppins, Arial" font-size="16" fill="#777777">
+Already have an account?
+</text>
+
+<text x="610" y="930" font-family="Poppins, Arial" font-size="16" font-weight="600" fill="#5B35D5">
+Login
+</text>
+
+<!-- Decorative Right Side -->
+<circle cx="1020" cy="620" r="140" fill="#DCCBFF"/>
+<circle cx="1100" cy="450" r="70" fill="#E9DDFF"/>
+<circle cx="930" cy="400" r="50" fill="#EFE7FF"/>
+</svg>
