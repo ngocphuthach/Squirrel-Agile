@@ -1,0 +1,239 @@
+<svg width="2400" height="1800" viewBox="0 0 2400 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <style>
+      .font { font-family: Inter, Arial, sans-serif; }
+      .title { font-size: 34px; font-weight: 800; fill: #0F172A; }
+      .subtitle { font-size: 18px; font-weight: 500; fill: #64748B; }
+      .label { font-size: 16px; font-weight: 700; fill: #334155; }
+      .text { font-size: 15px; font-weight: 500; fill: #475569; }
+      .small { font-size: 13px; font-weight: 500; fill: #64748B; }
+      .whiteTitle { font-size: 28px; font-weight: 800; fill: #FFFFFF; }
+      .whiteText { font-size: 15px; font-weight: 600; fill: #DBEAFE; }
+      .pillText { font-size: 13px; font-weight: 700; fill: #FFFFFF; }
+      .screenTitle { font-size: 22px; font-weight: 800; fill: #0F172A; }
+      .mono { font-family: Consolas, Monaco, monospace; font-size: 13px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+
+  <rect width="2400" height="1800" fill="#F4F7FB"/>
+
+  <text x="80" y="75" class="font title">Squirrel Banking App - Bộ giao diện chức năng</text>
+  <text x="80" y="110" class="font subtitle">Thiết kế SVG có thể kéo thả/import trực tiếp vào Figma. Bao gồm UI + luồng xử lý + mô hình dữ liệu.</text>
+
+  <!-- Background grid dots -->
+  <g opacity="0.22">
+    <circle cx="80" cy="150" r="2" fill="#CBD5E1"/><circle cx="80" cy="230" r="2" fill="#CBD5E1"/><circle cx="80" cy="310" r="2" fill="#CBD5E1"/><circle cx="80" cy="390" r="2" fill="#CBD5E1"/><circle cx="80" cy="470" r="2" fill="#CBD5E1"/><circle cx="80" cy="550" r="2" fill="#CBD5E1"/><circle cx="80" cy="630" r="2" fill="#CBD5E1"/><circle cx="80" cy="710" r="2" fill="#CBD5E1"/><circle cx="80" cy="790" r="2" fill="#CBD5E1"/><circle cx="80" cy="870" r="2" fill="#CBD5E1"/><circle cx="80" cy="950" r="2" fill="#CBD5E1"/><circle cx="80" cy="1030" r="2" fill="#CBD5E1"/><circle cx="80" cy="1110" r="2" fill="#CBD5E1"/><circle cx="80" cy="1190" r="2" fill="#CBD5E1"/><circle cx="80" cy="1270" r="2" fill="#CBD5E1"/><circle cx="80" cy="1350" r="2" fill="#CBD5E1"/><circle cx="80" cy="1430" r="2" fill="#CBD5E1"/><circle cx="80" cy="1510" r="2" fill="#CBD5E1"/><circle cx="80" cy="1590" r="2" fill="#CBD5E1"/><circle cx="80" cy="1670" r="2" fill="#CBD5E1"/><circle cx="80" cy="1750" r="2" fill="#CBD5E1"/><circle cx="160" cy="150" r="2" fill="#CBD5E1"/><circle cx="160" cy="230" r="2" fill="#CBD5E1"/><circle cx="160" cy="310" r="2" fill="#CBD5E1"/><circle cx="160" cy="390" r="2" fill="#CBD5E1"/><circle cx="160" cy="470" r="2" fill="#CBD5E1"/><circle cx="160" cy="550" r="2" fill="#CBD5E1"/><circle cx="160" cy="630" r="2" fill="#CBD5E1"/><circle cx="160" cy="710" r="2" fill="#CBD5E1"/><circle cx="160" cy="790" r="2" fill="#CBD5E1"/><circle cx="160" cy="870" r="2" fill="#CBD5E1"/><circle cx="160" cy="950" r="2" fill="#CBD5E1"/><circle cx="160" cy="1030" r="2" fill="#CBD5E1"/><circle cx="160" cy="1110" r="2" fill="#CBD5E1"/><circle cx="160" cy="1190" r="2" fill="#CBD5E1"/><circle cx="160" cy="1270" r="2" fill="#CBD5E1"/><circle cx="160" cy="1350" r="2" fill="#CBD5E1"/><circle cx="160" cy="1430" r="2" fill="#CBD5E1"/><circle cx="160" cy="1510" r="2" fill="#CBD5E1"/><circle cx="160" cy="1590" r="2" fill="#CBD5E1"/><circle cx="160" cy="1670" r="2" fill="#CBD5E1"/><circle cx="160" cy="1750" r="2" fill="#CBD5E1"/><circle cx="240" cy="150" r="2" fill="#CBD5E1"/><circle cx="240" cy="230" r="2" fill="#CBD5E1"/><circle cx="240" cy="310" r="2" fill="#CBD5E1"/><circle cx="240" cy="390" r="2" fill="#CBD5E1"/><circle cx="240" cy="470" r="2" fill="#CBD5E1"/><circle cx="240" cy="550" r="2" fill="#CBD5E1"/><circle cx="240" cy="630" r="2" fill="#CBD5E1"/><circle cx="240" cy="710" r="2" fill="#CBD5E1"/><circle cx="240" cy="790" r="2" fill="#CBD5E1"/><circle cx="240" cy="870" r="2" fill="#CBD5E1"/><circle cx="240" cy="950" r="2" fill="#CBD5E1"/><circle cx="240" cy="1030" r="2" fill="#CBD5E1"/><circle cx="240" cy="1110" r="2" fill="#CBD5E1"/><circle cx="240" cy="1190" r="2" fill="#CBD5E1"/><circle cx="240" cy="1270" r="2" fill="#CBD5E1"/><circle cx="240" cy="1350" r="2" fill="#CBD5E1"/><circle cx="240" cy="1430" r="2" fill="#CBD5E1"/><circle cx="240" cy="1510" r="2" fill="#CBD5E1"/><circle cx="240" cy="1590" r="2" fill="#CBD5E1"/><circle cx="240" cy="1670" r="2" fill="#CBD5E1"/><circle cx="240" cy="1750" r="2" fill="#CBD5E1"/><circle cx="320" cy="150" r="2" fill="#CBD5E1"/><circle cx="320" cy="230" r="2" fill="#CBD5E1"/><circle cx="320" cy="310" r="2" fill="#CBD5E1"/><circle cx="320" cy="390" r="2" fill="#CBD5E1"/><circle cx="320" cy="470" r="2" fill="#CBD5E1"/><circle cx="320" cy="550" r="2" fill="#CBD5E1"/><circle cx="320" cy="630" r="2" fill="#CBD5E1"/><circle cx="320" cy="710" r="2" fill="#CBD5E1"/><circle cx="320" cy="790" r="2" fill="#CBD5E1"/><circle cx="320" cy="870" r="2" fill="#CBD5E1"/><circle cx="320" cy="950" r="2" fill="#CBD5E1"/><circle cx="320" cy="1030" r="2" fill="#CBD5E1"/><circle cx="320" cy="1110" r="2" fill="#CBD5E1"/><circle cx="320" cy="1190" r="2" fill="#CBD5E1"/><circle cx="320" cy="1270" r="2" fill="#CBD5E1"/><circle cx="320" cy="1350" r="2" fill="#CBD5E1"/><circle cx="320" cy="1430" r="2" fill="#CBD5E1"/><circle cx="320" cy="1510" r="2" fill="#CBD5E1"/><circle cx="320" cy="1590" r="2" fill="#CBD5E1"/><circle cx="320" cy="1670" r="2" fill="#CBD5E1"/><circle cx="320" cy="1750" r="2" fill="#CBD5E1"/><circle cx="400" cy="150" r="2" fill="#CBD5E1"/><circle cx="400" cy="230" r="2" fill="#CBD5E1"/><circle cx="400" cy="310" r="2" fill="#CBD5E1"/><circle cx="400" cy="390" r="2" fill="#CBD5E1"/><circle cx="400" cy="470" r="2" fill="#CBD5E1"/><circle cx="400" cy="550" r="2" fill="#CBD5E1"/><circle cx="400" cy="630" r="2" fill="#CBD5E1"/><circle cx="400" cy="710" r="2" fill="#CBD5E1"/><circle cx="400" cy="790" r="2" fill="#CBD5E1"/><circle cx="400" cy="870" r="2" fill="#CBD5E1"/><circle cx="400" cy="950" r="2" fill="#CBD5E1"/><circle cx="400" cy="1030" r="2" fill="#CBD5E1"/><circle cx="400" cy="1110" r="2" fill="#CBD5E1"/><circle cx="400" cy="1190" r="2" fill="#CBD5E1"/><circle cx="400" cy="1270" r="2" fill="#CBD5E1"/><circle cx="400" cy="1350" r="2" fill="#CBD5E1"/><circle cx="400" cy="1430" r="2" fill="#CBD5E1"/><circle cx="400" cy="1510" r="2" fill="#CBD5E1"/><circle cx="400" cy="1590" r="2" fill="#CBD5E1"/><circle cx="400" cy="1670" r="2" fill="#CBD5E1"/><circle cx="400" cy="1750" r="2" fill="#CBD5E1"/><circle cx="480" cy="150" r="2" fill="#CBD5E1"/><circle cx="480" cy="230" r="2" fill="#CBD5E1"/><circle cx="480" cy="310" r="2" fill="#CBD5E1"/><circle cx="480" cy="390" r="2" fill="#CBD5E1"/><circle cx="480" cy="470" r="2" fill="#CBD5E1"/><circle cx="480" cy="550" r="2" fill="#CBD5E1"/><circle cx="480" cy="630" r="2" fill="#CBD5E1"/><circle cx="480" cy="710" r="2" fill="#CBD5E1"/><circle cx="480" cy="790" r="2" fill="#CBD5E1"/><circle cx="480" cy="870" r="2" fill="#CBD5E1"/><circle cx="480" cy="950" r="2" fill="#CBD5E1"/><circle cx="480" cy="1030" r="2" fill="#CBD5E1"/><circle cx="480" cy="1110" r="2" fill="#CBD5E1"/><circle cx="480" cy="1190" r="2" fill="#CBD5E1"/><circle cx="480" cy="1270" r="2" fill="#CBD5E1"/><circle cx="480" cy="1350" r="2" fill="#CBD5E1"/><circle cx="480" cy="1430" r="2" fill="#CBD5E1"/><circle cx="480" cy="1510" r="2" fill="#CBD5E1"/><circle cx="480" cy="1590" r="2" fill="#CBD5E1"/><circle cx="480" cy="1670" r="2" fill="#CBD5E1"/><circle cx="480" cy="1750" r="2" fill="#CBD5E1"/><circle cx="560" cy="150" r="2" fill="#CBD5E1"/><circle cx="560" cy="230" r="2" fill="#CBD5E1"/><circle cx="560" cy="310" r="2" fill="#CBD5E1"/><circle cx="560" cy="390" r="2" fill="#CBD5E1"/><circle cx="560" cy="470" r="2" fill="#CBD5E1"/><circle cx="560" cy="550" r="2" fill="#CBD5E1"/><circle cx="560" cy="630" r="2" fill="#CBD5E1"/><circle cx="560" cy="710" r="2" fill="#CBD5E1"/><circle cx="560" cy="790" r="2" fill="#CBD5E1"/><circle cx="560" cy="870" r="2" fill="#CBD5E1"/><circle cx="560" cy="950" r="2" fill="#CBD5E1"/><circle cx="560" cy="1030" r="2" fill="#CBD5E1"/><circle cx="560" cy="1110" r="2" fill="#CBD5E1"/><circle cx="560" cy="1190" r="2" fill="#CBD5E1"/><circle cx="560" cy="1270" r="2" fill="#CBD5E1"/><circle cx="560" cy="1350" r="2" fill="#CBD5E1"/><circle cx="560" cy="1430" r="2" fill="#CBD5E1"/><circle cx="560" cy="1510" r="2" fill="#CBD5E1"/><circle cx="560" cy="1590" r="2" fill="#CBD5E1"/><circle cx="560" cy="1670" r="2" fill="#CBD5E1"/><circle cx="560" cy="1750" r="2" fill="#CBD5E1"/><circle cx="640" cy="150" r="2" fill="#CBD5E1"/><circle cx="640" cy="230" r="2" fill="#CBD5E1"/><circle cx="640" cy="310" r="2" fill="#CBD5E1"/><circle cx="640" cy="390" r="2" fill="#CBD5E1"/><circle cx="640" cy="470" r="2" fill="#CBD5E1"/><circle cx="640" cy="550" r="2" fill="#CBD5E1"/><circle cx="640" cy="630" r="2" fill="#CBD5E1"/><circle cx="640" cy="710" r="2" fill="#CBD5E1"/><circle cx="640" cy="790" r="2" fill="#CBD5E1"/><circle cx="640" cy="870" r="2" fill="#CBD5E1"/><circle cx="640" cy="950" r="2" fill="#CBD5E1"/><circle cx="640" cy="1030" r="2" fill="#CBD5E1"/><circle cx="640" cy="1110" r="2" fill="#CBD5E1"/><circle cx="640" cy="1190" r="2" fill="#CBD5E1"/><circle cx="640" cy="1270" r="2" fill="#CBD5E1"/><circle cx="640" cy="1350" r="2" fill="#CBD5E1"/><circle cx="640" cy="1430" r="2" fill="#CBD5E1"/><circle cx="640" cy="1510" r="2" fill="#CBD5E1"/><circle cx="640" cy="1590" r="2" fill="#CBD5E1"/><circle cx="640" cy="1670" r="2" fill="#CBD5E1"/><circle cx="640" cy="1750" r="2" fill="#CBD5E1"/><circle cx="720" cy="150" r="2" fill="#CBD5E1"/><circle cx="720" cy="230" r="2" fill="#CBD5E1"/><circle cx="720" cy="310" r="2" fill="#CBD5E1"/><circle cx="720" cy="390" r="2" fill="#CBD5E1"/><circle cx="720" cy="470" r="2" fill="#CBD5E1"/><circle cx="720" cy="550" r="2" fill="#CBD5E1"/><circle cx="720" cy="630" r="2" fill="#CBD5E1"/><circle cx="720" cy="710" r="2" fill="#CBD5E1"/><circle cx="720" cy="790" r="2" fill="#CBD5E1"/><circle cx="720" cy="870" r="2" fill="#CBD5E1"/><circle cx="720" cy="950" r="2" fill="#CBD5E1"/><circle cx="720" cy="1030" r="2" fill="#CBD5E1"/><circle cx="720" cy="1110" r="2" fill="#CBD5E1"/><circle cx="720" cy="1190" r="2" fill="#CBD5E1"/><circle cx="720" cy="1270" r="2" fill="#CBD5E1"/><circle cx="720" cy="1350" r="2" fill="#CBD5E1"/><circle cx="720" cy="1430" r="2" fill="#CBD5E1"/><circle cx="720" cy="1510" r="2" fill="#CBD5E1"/><circle cx="720" cy="1590" r="2" fill="#CBD5E1"/><circle cx="720" cy="1670" r="2" fill="#CBD5E1"/><circle cx="720" cy="1750" r="2" fill="#CBD5E1"/><circle cx="800" cy="150" r="2" fill="#CBD5E1"/><circle cx="800" cy="230" r="2" fill="#CBD5E1"/><circle cx="800" cy="310" r="2" fill="#CBD5E1"/><circle cx="800" cy="390" r="2" fill="#CBD5E1"/><circle cx="800" cy="470" r="2" fill="#CBD5E1"/><circle cx="800" cy="550" r="2" fill="#CBD5E1"/><circle cx="800" cy="630" r="2" fill="#CBD5E1"/><circle cx="800" cy="710" r="2" fill="#CBD5E1"/><circle cx="800" cy="790" r="2" fill="#CBD5E1"/><circle cx="800" cy="870" r="2" fill="#CBD5E1"/><circle cx="800" cy="950" r="2" fill="#CBD5E1"/><circle cx="800" cy="1030" r="2" fill="#CBD5E1"/><circle cx="800" cy="1110" r="2" fill="#CBD5E1"/><circle cx="800" cy="1190" r="2" fill="#CBD5E1"/><circle cx="800" cy="1270" r="2" fill="#CBD5E1"/><circle cx="800" cy="1350" r="2" fill="#CBD5E1"/><circle cx="800" cy="1430" r="2" fill="#CBD5E1"/><circle cx="800" cy="1510" r="2" fill="#CBD5E1"/><circle cx="800" cy="1590" r="2" fill="#CBD5E1"/><circle cx="800" cy="1670" r="2" fill="#CBD5E1"/><circle cx="800" cy="1750" r="2" fill="#CBD5E1"/><circle cx="880" cy="150" r="2" fill="#CBD5E1"/><circle cx="880" cy="230" r="2" fill="#CBD5E1"/><circle cx="880" cy="310" r="2" fill="#CBD5E1"/><circle cx="880" cy="390" r="2" fill="#CBD5E1"/><circle cx="880" cy="470" r="2" fill="#CBD5E1"/><circle cx="880" cy="550" r="2" fill="#CBD5E1"/><circle cx="880" cy="630" r="2" fill="#CBD5E1"/><circle cx="880" cy="710" r="2" fill="#CBD5E1"/><circle cx="880" cy="790" r="2" fill="#CBD5E1"/><circle cx="880" cy="870" r="2" fill="#CBD5E1"/><circle cx="880" cy="950" r="2" fill="#CBD5E1"/><circle cx="880" cy="1030" r="2" fill="#CBD5E1"/><circle cx="880" cy="1110" r="2" fill="#CBD5E1"/><circle cx="880" cy="1190" r="2" fill="#CBD5E1"/><circle cx="880" cy="1270" r="2" fill="#CBD5E1"/><circle cx="880" cy="1350" r="2" fill="#CBD5E1"/><circle cx="880" cy="1430" r="2" fill="#CBD5E1"/><circle cx="880" cy="1510" r="2" fill="#CBD5E1"/><circle cx="880" cy="1590" r="2" fill="#CBD5E1"/><circle cx="880" cy="1670" r="2" fill="#CBD5E1"/><circle cx="880" cy="1750" r="2" fill="#CBD5E1"/><circle cx="960" cy="150" r="2" fill="#CBD5E1"/><circle cx="960" cy="230" r="2" fill="#CBD5E1"/><circle cx="960" cy="310" r="2" fill="#CBD5E1"/><circle cx="960" cy="390" r="2" fill="#CBD5E1"/><circle cx="960" cy="470" r="2" fill="#CBD5E1"/><circle cx="960" cy="550" r="2" fill="#CBD5E1"/><circle cx="960" cy="630" r="2" fill="#CBD5E1"/><circle cx="960" cy="710" r="2" fill="#CBD5E1"/><circle cx="960" cy="790" r="2" fill="#CBD5E1"/><circle cx="960" cy="870" r="2" fill="#CBD5E1"/><circle cx="960" cy="950" r="2" fill="#CBD5E1"/><circle cx="960" cy="1030" r="2" fill="#CBD5E1"/><circle cx="960" cy="1110" r="2" fill="#CBD5E1"/><circle cx="960" cy="1190" r="2" fill="#CBD5E1"/><circle cx="960" cy="1270" r="2" fill="#CBD5E1"/><circle cx="960" cy="1350" r="2" fill="#CBD5E1"/><circle cx="960" cy="1430" r="2" fill="#CBD5E1"/><circle cx="960" cy="1510" r="2" fill="#CBD5E1"/><circle cx="960" cy="1590" r="2" fill="#CBD5E1"/><circle cx="960" cy="1670" r="2" fill="#CBD5E1"/><circle cx="960" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1040" cy="150" r="2" fill="#CBD5E1"/><circle cx="1040" cy="230" r="2" fill="#CBD5E1"/><circle cx="1040" cy="310" r="2" fill="#CBD5E1"/><circle cx="1040" cy="390" r="2" fill="#CBD5E1"/><circle cx="1040" cy="470" r="2" fill="#CBD5E1"/><circle cx="1040" cy="550" r="2" fill="#CBD5E1"/><circle cx="1040" cy="630" r="2" fill="#CBD5E1"/><circle cx="1040" cy="710" r="2" fill="#CBD5E1"/><circle cx="1040" cy="790" r="2" fill="#CBD5E1"/><circle cx="1040" cy="870" r="2" fill="#CBD5E1"/><circle cx="1040" cy="950" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1040" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1120" cy="150" r="2" fill="#CBD5E1"/><circle cx="1120" cy="230" r="2" fill="#CBD5E1"/><circle cx="1120" cy="310" r="2" fill="#CBD5E1"/><circle cx="1120" cy="390" r="2" fill="#CBD5E1"/><circle cx="1120" cy="470" r="2" fill="#CBD5E1"/><circle cx="1120" cy="550" r="2" fill="#CBD5E1"/><circle cx="1120" cy="630" r="2" fill="#CBD5E1"/><circle cx="1120" cy="710" r="2" fill="#CBD5E1"/><circle cx="1120" cy="790" r="2" fill="#CBD5E1"/><circle cx="1120" cy="870" r="2" fill="#CBD5E1"/><circle cx="1120" cy="950" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1120" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1200" cy="150" r="2" fill="#CBD5E1"/><circle cx="1200" cy="230" r="2" fill="#CBD5E1"/><circle cx="1200" cy="310" r="2" fill="#CBD5E1"/><circle cx="1200" cy="390" r="2" fill="#CBD5E1"/><circle cx="1200" cy="470" r="2" fill="#CBD5E1"/><circle cx="1200" cy="550" r="2" fill="#CBD5E1"/><circle cx="1200" cy="630" r="2" fill="#CBD5E1"/><circle cx="1200" cy="710" r="2" fill="#CBD5E1"/><circle cx="1200" cy="790" r="2" fill="#CBD5E1"/><circle cx="1200" cy="870" r="2" fill="#CBD5E1"/><circle cx="1200" cy="950" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1200" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1280" cy="150" r="2" fill="#CBD5E1"/><circle cx="1280" cy="230" r="2" fill="#CBD5E1"/><circle cx="1280" cy="310" r="2" fill="#CBD5E1"/><circle cx="1280" cy="390" r="2" fill="#CBD5E1"/><circle cx="1280" cy="470" r="2" fill="#CBD5E1"/><circle cx="1280" cy="550" r="2" fill="#CBD5E1"/><circle cx="1280" cy="630" r="2" fill="#CBD5E1"/><circle cx="1280" cy="710" r="2" fill="#CBD5E1"/><circle cx="1280" cy="790" r="2" fill="#CBD5E1"/><circle cx="1280" cy="870" r="2" fill="#CBD5E1"/><circle cx="1280" cy="950" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1280" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1360" cy="150" r="2" fill="#CBD5E1"/><circle cx="1360" cy="230" r="2" fill="#CBD5E1"/><circle cx="1360" cy="310" r="2" fill="#CBD5E1"/><circle cx="1360" cy="390" r="2" fill="#CBD5E1"/><circle cx="1360" cy="470" r="2" fill="#CBD5E1"/><circle cx="1360" cy="550" r="2" fill="#CBD5E1"/><circle cx="1360" cy="630" r="2" fill="#CBD5E1"/><circle cx="1360" cy="710" r="2" fill="#CBD5E1"/><circle cx="1360" cy="790" r="2" fill="#CBD5E1"/><circle cx="1360" cy="870" r="2" fill="#CBD5E1"/><circle cx="1360" cy="950" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1360" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1440" cy="150" r="2" fill="#CBD5E1"/><circle cx="1440" cy="230" r="2" fill="#CBD5E1"/><circle cx="1440" cy="310" r="2" fill="#CBD5E1"/><circle cx="1440" cy="390" r="2" fill="#CBD5E1"/><circle cx="1440" cy="470" r="2" fill="#CBD5E1"/><circle cx="1440" cy="550" r="2" fill="#CBD5E1"/><circle cx="1440" cy="630" r="2" fill="#CBD5E1"/><circle cx="1440" cy="710" r="2" fill="#CBD5E1"/><circle cx="1440" cy="790" r="2" fill="#CBD5E1"/><circle cx="1440" cy="870" r="2" fill="#CBD5E1"/><circle cx="1440" cy="950" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1440" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1520" cy="150" r="2" fill="#CBD5E1"/><circle cx="1520" cy="230" r="2" fill="#CBD5E1"/><circle cx="1520" cy="310" r="2" fill="#CBD5E1"/><circle cx="1520" cy="390" r="2" fill="#CBD5E1"/><circle cx="1520" cy="470" r="2" fill="#CBD5E1"/><circle cx="1520" cy="550" r="2" fill="#CBD5E1"/><circle cx="1520" cy="630" r="2" fill="#CBD5E1"/><circle cx="1520" cy="710" r="2" fill="#CBD5E1"/><circle cx="1520" cy="790" r="2" fill="#CBD5E1"/><circle cx="1520" cy="870" r="2" fill="#CBD5E1"/><circle cx="1520" cy="950" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1520" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1600" cy="150" r="2" fill="#CBD5E1"/><circle cx="1600" cy="230" r="2" fill="#CBD5E1"/><circle cx="1600" cy="310" r="2" fill="#CBD5E1"/><circle cx="1600" cy="390" r="2" fill="#CBD5E1"/><circle cx="1600" cy="470" r="2" fill="#CBD5E1"/><circle cx="1600" cy="550" r="2" fill="#CBD5E1"/><circle cx="1600" cy="630" r="2" fill="#CBD5E1"/><circle cx="1600" cy="710" r="2" fill="#CBD5E1"/><circle cx="1600" cy="790" r="2" fill="#CBD5E1"/><circle cx="1600" cy="870" r="2" fill="#CBD5E1"/><circle cx="1600" cy="950" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1600" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1680" cy="150" r="2" fill="#CBD5E1"/><circle cx="1680" cy="230" r="2" fill="#CBD5E1"/><circle cx="1680" cy="310" r="2" fill="#CBD5E1"/><circle cx="1680" cy="390" r="2" fill="#CBD5E1"/><circle cx="1680" cy="470" r="2" fill="#CBD5E1"/><circle cx="1680" cy="550" r="2" fill="#CBD5E1"/><circle cx="1680" cy="630" r="2" fill="#CBD5E1"/><circle cx="1680" cy="710" r="2" fill="#CBD5E1"/><circle cx="1680" cy="790" r="2" fill="#CBD5E1"/><circle cx="1680" cy="870" r="2" fill="#CBD5E1"/><circle cx="1680" cy="950" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1680" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1760" cy="150" r="2" fill="#CBD5E1"/><circle cx="1760" cy="230" r="2" fill="#CBD5E1"/><circle cx="1760" cy="310" r="2" fill="#CBD5E1"/><circle cx="1760" cy="390" r="2" fill="#CBD5E1"/><circle cx="1760" cy="470" r="2" fill="#CBD5E1"/><circle cx="1760" cy="550" r="2" fill="#CBD5E1"/><circle cx="1760" cy="630" r="2" fill="#CBD5E1"/><circle cx="1760" cy="710" r="2" fill="#CBD5E1"/><circle cx="1760" cy="790" r="2" fill="#CBD5E1"/><circle cx="1760" cy="870" r="2" fill="#CBD5E1"/><circle cx="1760" cy="950" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1760" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1840" cy="150" r="2" fill="#CBD5E1"/><circle cx="1840" cy="230" r="2" fill="#CBD5E1"/><circle cx="1840" cy="310" r="2" fill="#CBD5E1"/><circle cx="1840" cy="390" r="2" fill="#CBD5E1"/><circle cx="1840" cy="470" r="2" fill="#CBD5E1"/><circle cx="1840" cy="550" r="2" fill="#CBD5E1"/><circle cx="1840" cy="630" r="2" fill="#CBD5E1"/><circle cx="1840" cy="710" r="2" fill="#CBD5E1"/><circle cx="1840" cy="790" r="2" fill="#CBD5E1"/><circle cx="1840" cy="870" r="2" fill="#CBD5E1"/><circle cx="1840" cy="950" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1840" cy="1750" r="2" fill="#CBD5E1"/><circle cx="1920" cy="150" r="2" fill="#CBD5E1"/><circle cx="1920" cy="230" r="2" fill="#CBD5E1"/><circle cx="1920" cy="310" r="2" fill="#CBD5E1"/><circle cx="1920" cy="390" r="2" fill="#CBD5E1"/><circle cx="1920" cy="470" r="2" fill="#CBD5E1"/><circle cx="1920" cy="550" r="2" fill="#CBD5E1"/><circle cx="1920" cy="630" r="2" fill="#CBD5E1"/><circle cx="1920" cy="710" r="2" fill="#CBD5E1"/><circle cx="1920" cy="790" r="2" fill="#CBD5E1"/><circle cx="1920" cy="870" r="2" fill="#CBD5E1"/><circle cx="1920" cy="950" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1030" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1110" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1190" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1270" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1350" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1430" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1510" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1590" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1670" r="2" fill="#CBD5E1"/><circle cx="1920" cy="1750" r="2" fill="#CBD5E1"/><circle cx="2000" cy="150" r="2" fill="#CBD5E1"/><circle cx="2000" cy="230" r="2" fill="#CBD5E1"/><circle cx="2000" cy="310" r="2" fill="#CBD5E1"/><circle cx="2000" cy="390" r="2" fill="#CBD5E1"/><circle cx="2000" cy="470" r="2" fill="#CBD5E1"/><circle cx="2000" cy="550" r="2" fill="#CBD5E1"/><circle cx="2000" cy="630" r="2" fill="#CBD5E1"/><circle cx="2000" cy="710" r="2" fill="#CBD5E1"/><circle cx="2000" cy="790" r="2" fill="#CBD5E1"/><circle cx="2000" cy="870" r="2" fill="#CBD5E1"/><circle cx="2000" cy="950" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1030" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1110" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1190" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1270" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1350" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1430" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1510" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1590" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1670" r="2" fill="#CBD5E1"/><circle cx="2000" cy="1750" r="2" fill="#CBD5E1"/><circle cx="2080" cy="150" r="2" fill="#CBD5E1"/><circle cx="2080" cy="230" r="2" fill="#CBD5E1"/><circle cx="2080" cy="310" r="2" fill="#CBD5E1"/><circle cx="2080" cy="390" r="2" fill="#CBD5E1"/><circle cx="2080" cy="470" r="2" fill="#CBD5E1"/><circle cx="2080" cy="550" r="2" fill="#CBD5E1"/><circle cx="2080" cy="630" r="2" fill="#CBD5E1"/><circle cx="2080" cy="710" r="2" fill="#CBD5E1"/><circle cx="2080" cy="790" r="2" fill="#CBD5E1"/><circle cx="2080" cy="870" r="2" fill="#CBD5E1"/><circle cx="2080" cy="950" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1030" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1110" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1190" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1270" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1350" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1430" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1510" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1590" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1670" r="2" fill="#CBD5E1"/><circle cx="2080" cy="1750" r="2" fill="#CBD5E1"/><circle cx="2160" cy="150" r="2" fill="#CBD5E1"/><circle cx="2160" cy="230" r="2" fill="#CBD5E1"/><circle cx="2160" cy="310" r="2" fill="#CBD5E1"/><circle cx="2160" cy="390" r="2" fill="#CBD5E1"/><circle cx="2160" cy="470" r="2" fill="#CBD5E1"/><circle cx="2160" cy="550" r="2" fill="#CBD5E1"/><circle cx="2160" cy="630" r="2" fill="#CBD5E1"/><circle cx="2160" cy="710" r="2" fill="#CBD5E1"/><circle cx="2160" cy="790" r="2" fill="#CBD5E1"/><circle cx="2160" cy="870" r="2" fill="#CBD5E1"/><circle cx="2160" cy="950" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1030" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1110" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1190" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1270" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1350" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1430" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1510" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1590" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1670" r="2" fill="#CBD5E1"/><circle cx="2160" cy="1750" r="2" fill="#CBD5E1"/><circle cx="2240" cy="150" r="2" fill="#CBD5E1"/><circle cx="2240" cy="230" r="2" fill="#CBD5E1"/><circle cx="2240" cy="310" r="2" fill="#CBD5E1"/><circle cx="2240" cy="390" r="2" fill="#CBD5E1"/><circle cx="2240" cy="470" r="2" fill="#CBD5E1"/><circle cx="2240" cy="550" r="2" fill="#CBD5E1"/><circle cx="2240" cy="630" r="2" fill="#CBD5E1"/><circle cx="2240" cy="710" r="2" fill="#CBD5E1"/><circle cx="2240" cy="790" r="2" fill="#CBD5E1"/><circle cx="2240" cy="870" r="2" fill="#CBD5E1"/><circle cx="2240" cy="950" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1030" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1110" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1190" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1270" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1350" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1430" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1510" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1590" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1670" r="2" fill="#CBD5E1"/><circle cx="2240" cy="1750" r="2" fill="#CBD5E1"/><circle cx="2320" cy="150" r="2" fill="#CBD5E1"/><circle cx="2320" cy="230" r="2" fill="#CBD5E1"/><circle cx="2320" cy="310" r="2" fill="#CBD5E1"/><circle cx="2320" cy="390" r="2" fill="#CBD5E1"/><circle cx="2320" cy="470" r="2" fill="#CBD5E1"/><circle cx="2320" cy="550" r="2" fill="#CBD5E1"/><circle cx="2320" cy="630" r="2" fill="#CBD5E1"/><circle cx="2320" cy="710" r="2" fill="#CBD5E1"/><circle cx="2320" cy="790" r="2" fill="#CBD5E1"/><circle cx="2320" cy="870" r="2" fill="#CBD5E1"/><circle cx="2320" cy="950" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1030" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1110" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1190" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1270" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1350" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1430" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1510" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1590" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1670" r="2" fill="#CBD5E1"/><circle cx="2320" cy="1750" r="2" fill="#CBD5E1"/>
+  </g>
+
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L10,6 L2,10 Z" fill="#64748B"/>
+  </marker>
+</defs>
+<rect x="80" y="150" width="700" height="470" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="112" y="200" class="font screenTitle">1. Xử lý logic đăng nhập &amp; đăng ký</text>
+<text x="112" y="232" class="font small">Màn hình UI kết hợp luồng API server Express.js</text>
+<rect x="112" y="265" width="250" height="300" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="142" y="305" class="font label">Đăng nhập</text>
+<text x="142" y="330" class="font small">Email</text>
+<rect x="142" y="342" width="190" height="42" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="156" y="369" class="font small">user@gmail.com</text>
+<text x="142" y="398" class="font small">Mật khẩu</text>
+<rect x="142" y="410" width="190" height="42" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="156" y="437" class="font small">••••••••</text>
+<rect x="142" y="475" width="190" height="48" rx="14" fill="url(#blueGrad)"/>
+<text x="192" y="506" class="font pillText">Đăng nhập</text>
+<text x="163" y="545" class="font small">Chưa có tài khoản? Đăng ký</text>
+<rect x="405" y="265" width="330" height="300" rx="22" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+<text x="430" y="305" class="font label">Luồng xử lý server</text>
+<rect x="430" y="308" width="280" height="43" rx="12" fill="#FFFFFF" stroke="#C7D2FE"/>
+<text x="445" y="329" class="font mono">POST /api/login</text>
+<text x="445" y="346" class="font small">Nhận email + password</text>
+<line x1="570" y1="353" x2="570" y2="363" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="430" y="363" width="280" height="43" rx="12" fill="#FFFFFF" stroke="#C7D2FE"/>
+<text x="445" y="384" class="font mono">Validate input</text>
+<text x="445" y="401" class="font small">Kiểm tra rỗng, định dạng email</text>
+<line x1="570" y1="408" x2="570" y2="418" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="430" y="418" width="280" height="43" rx="12" fill="#FFFFFF" stroke="#C7D2FE"/>
+<text x="445" y="439" class="font mono">bcrypt.compare()</text>
+<text x="445" y="456" class="font small">So sánh mật khẩu đã mã hóa</text>
+<line x1="570" y1="463" x2="570" y2="473" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="430" y="473" width="280" height="43" rx="12" fill="#FFFFFF" stroke="#C7D2FE"/>
+<text x="445" y="494" class="font mono">JWT token</text>
+<text x="445" y="511" class="font small">Tạo token và trả về client</text>
+<rect x="850" y="150" width="700" height="470" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="882" y="200" class="font screenTitle">2. Hiển thị thông tin tài khoản &amp; số dư</text>
+<text x="882" y="232" class="font small">Dashboard người dùng sau khi đăng nhập thành công</text>
+<rect x="882" y="265" width="360" height="180" rx="26" fill="url(#blueGrad)"/>
+<text x="912" y="307" class="font whiteText">Số dư hiện tại</text>
+<text x="912" y="360" class="font whiteTitle">25,450,000 VNĐ</text>
+<text x="912" y="400" class="font whiteText">Tài khoản: 0123456789</text>
+<text x="912" y="427" class="font whiteText">Chủ tài khoản: Trần Phú Dinh</text>
+<rect x="1270" y="265" width="230" height="180" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1295" y="305" class="font label">Thông tin tài khoản</text>
+<text x="1295" y="335" class="font small">Loại</text>
+<text x="1395" y="335" class="font text">Personal</text>
+<text x="1295" y="370" class="font small">Trạng thái</text>
+<text x="1395" y="370" class="font text">Active</text>
+<text x="1295" y="405" class="font small">Cập nhật</text>
+<text x="1395" y="405" class="font text">16/05/2026</text>
+<rect x="882" y="470" width="618" height="105" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="908" y="508" class="font label">API dữ liệu hiển thị</text>
+<text x="908" y="538" class="font mono">GET /api/account/me → accountNumber, balance, ownerName, status</text>
+<text x="908" y="562" class="font small">Client format VNĐ và cập nhật Dashboard theo token người dùng</text>
+<rect x="1620" y="150" width="700" height="470" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="1652" y="200" class="font screenTitle">3. Tạo giao diện thêm giao dịch</text>
+<text x="1652" y="232" class="font small">Form nhập giao dịch thu/chi và gửi về server</text>
+<rect x="1652" y="265" width="300" height="310" rx="24" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1682" y="305" class="font label">Thêm giao dịch mới</text>
+<text x="1682" y="335" class="font small">Tên giao dịch</text>
+<rect x="1682" y="343" width="230" height="34" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="1695" y="366" class="font small">Ví dụ: Thanh toán Shopee</text>
+<text x="1682" y="390" class="font small">Số tiền</text>
+<rect x="1682" y="398" width="230" height="34" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="1695" y="421" class="font small">350000</text>
+<text x="1682" y="445" class="font small">Loại giao dịch</text>
+<rect x="1682" y="453" width="230" height="34" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="1695" y="476" class="font small">Chi tiêu</text>
+<text x="1682" y="500" class="font small">Ghi chú</text>
+<rect x="1682" y="508" width="230" height="34" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="1695" y="531" class="font small">Mua hàng online</text>
+<rect x="1682" y="530" width="230" height="46" rx="14" fill="url(#greenGrad)"/>
+<text x="1748" y="560" class="font pillText">Lưu giao dịch</text>
+<rect x="1985" y="265" width="285" height="310" rx="24" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+<text x="2010" y="305" class="font label">Xử lý sau khi bấm Lưu</text>
+<circle cx="2022" cy="335" r="12" fill="#22C55E"/>
+<text x="2017" y="340" class="font pillText">1</text>
+<text x="2045" y="340" class="font text">Validate số tiền &gt; 0</text>
+<circle cx="2022" cy="380" r="12" fill="#22C55E"/>
+<text x="2017" y="385" class="font pillText">2</text>
+<text x="2045" y="385" class="font text">POST /api/transactions</text>
+<circle cx="2022" cy="425" r="12" fill="#22C55E"/>
+<text x="2017" y="430" class="font pillText">3</text>
+<text x="2045" y="430" class="font text">Cập nhật balance</text>
+<circle cx="2022" cy="470" r="12" fill="#22C55E"/>
+<text x="2017" y="475" class="font pillText">4</text>
+<text x="2045" y="475" class="font text">Trả về giao dịch mới</text>
+<circle cx="2022" cy="515" r="12" fill="#22C55E"/>
+<text x="2017" y="520" class="font pillText">5</text>
+<text x="2045" y="520" class="font text">Reload danh sách gần đây</text>
+<rect x="80" y="700" width="1090" height="470" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="112" y="750" class="font screenTitle">4. Tích hợp các biện pháp bảo mật</text>
+<text x="112" y="782" class="font small">Thiết kế màn hình/khối chức năng phục vụ Authentication, Authorization và bảo vệ dữ liệu</text>
+<rect x="112" y="820" width="310" height="105" rx="20" fill="#DBEAFE" stroke="#DBEAFE" stroke-width="1"/>
+<rect x="132" y="842" width="52" height="52" rx="16" fill="#2563EB"/>
+<text x="202" y="862" class="font label">JWT Authentication</text>
+<text x="202" y="890" class="font small">Token xác thực sau đăng nhập</text>
+<rect x="452" y="820" width="310" height="105" rx="20" fill="#DCFCE7" stroke="#DCFCE7" stroke-width="1"/>
+<rect x="472" y="842" width="52" height="52" rx="16" fill="#16A34A"/>
+<text x="542" y="862" class="font label">Password Hashing</text>
+<text x="542" y="890" class="font small">Mã hóa mật khẩu bằng bcrypt</text>
+<rect x="792" y="820" width="310" height="105" rx="20" fill="#F3E8FF" stroke="#F3E8FF" stroke-width="1"/>
+<rect x="812" y="842" width="52" height="52" rx="16" fill="#7C3AED"/>
+<text x="882" y="862" class="font label">Role Permission</text>
+<text x="882" y="890" class="font small">Phân quyền user/admin</text>
+<rect x="112" y="955" width="310" height="105" rx="20" fill="#FEF3C7" stroke="#FEF3C7" stroke-width="1"/>
+<rect x="132" y="977" width="52" height="52" rx="16" fill="#D97706"/>
+<text x="202" y="997" class="font label">Input Validation</text>
+<text x="202" y="1025" class="font small">Chặn dữ liệu rỗng/sai định dạng</text>
+<rect x="452" y="955" width="310" height="105" rx="20" fill="#FFE4E6" stroke="#FFE4E6" stroke-width="1"/>
+<rect x="472" y="977" width="52" height="52" rx="16" fill="#E11D48"/>
+<text x="542" y="997" class="font label">Session Control</text>
+<text x="542" y="1025" class="font small">Hết hạn token và logout</text>
+<rect x="792" y="955" width="310" height="105" rx="20" fill="#E0F2FE" stroke="#E0F2FE" stroke-width="1"/>
+<rect x="812" y="977" width="52" height="52" rx="16" fill="#0284C7"/>
+<text x="882" y="997" class="font label">API Protection</text>
+<text x="882" y="1025" class="font small">Middleware bảo vệ route riêng tư</text>
+<rect x="112" y="1100" width="1000" height="45" rx="14" fill="#0F172A" stroke="#0F172A" stroke-width="1"/>
+<text x="140" y="1129" class="font mono" fill="#E2E8F0">Protected routes: GET /api/account/me | POST /api/transactions | DELETE /api/transactions/:id</text>
+<rect x="1230" y="700" width="1090" height="470" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="1262" y="750" class="font screenTitle">5. Thiết kế kiến trúc dữ liệu cho cơ sở dữ liệu</text>
+<text x="1262" y="782" class="font small">Mô hình dữ liệu đề xuất khi nâng cấp từ bộ nhớ tạm sang MongoDB</text>
+<rect x="1270" y="825" width="300" height="260" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="1270" y="825" width="300" height="58" rx="22" fill="url(#purpleGrad)"/>
+<rect x="1270" y="860" width="300" height="30" fill="#5B21B6"/>
+<text x="1294" y="863" class="font whiteTitle">users</text>
+<text x="1294" y="913" class="font mono">_id: ObjectId</text>
+<text x="1294" y="945" class="font mono">fullName: String</text>
+<text x="1294" y="977" class="font mono">email: String</text>
+<text x="1294" y="1009" class="font mono">passwordHash: String</text>
+<text x="1294" y="1041" class="font mono">role: String</text>
+<rect x="1615" y="825" width="300" height="260" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="1615" y="825" width="300" height="58" rx="22" fill="url(#purpleGrad)"/>
+<rect x="1615" y="860" width="300" height="30" fill="#5B21B6"/>
+<text x="1639" y="863" class="font whiteTitle">accounts</text>
+<text x="1639" y="913" class="font mono">_id: ObjectId</text>
+<text x="1639" y="945" class="font mono">userId: ObjectId</text>
+<text x="1639" y="977" class="font mono">accountNumber: String</text>
+<text x="1639" y="1009" class="font mono">balance: Number</text>
+<text x="1639" y="1041" class="font mono">status: String</text>
+<rect x="1960" y="825" width="300" height="260" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+<rect x="1960" y="825" width="300" height="58" rx="22" fill="url(#purpleGrad)"/>
+<rect x="1960" y="860" width="300" height="30" fill="#5B21B6"/>
+<text x="1984" y="863" class="font whiteTitle">transactions</text>
+<text x="1984" y="913" class="font mono">_id: ObjectId</text>
+<text x="1984" y="945" class="font mono">accountId: ObjectId</text>
+<text x="1984" y="977" class="font mono">type: income/expense</text>
+<text x="1984" y="1009" class="font mono">amount: Number</text>
+<text x="1984" y="1041" class="font mono">description: String</text>
+<text x="1984" y="1073" class="font mono">createdAt: Date</text>
+<line x1="1570" y1="950" x2="1615" y2="950" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1915" y1="950" x2="1960" y2="950" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1582" y="930" class="font small">1 - 1</text>
+<text x="1926" y="930" class="font small">1 - n</text>
+<rect x="1270" y="1110" width="990" height="38" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1290" y="1135" class="font small">Mapping: User đăng nhập → Account chứa số dư → Transactions lưu lịch sử thu/chi theo accountId</text>
+<rect x="80" y="1250" width="2240" height="430" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow)"/>
+<text x="112" y="1300" class="font screenTitle">Luồng tổng thể hệ thống Squirrel Banking</text>
+<text x="112" y="1332" class="font small">Kết nối UI, API server, bảo mật và cơ sở dữ liệu trong một quy trình hoàn chỉnh</text>
+<rect x="150" y="1390" width="300" height="190" rx="28" fill="#DBEAFE" stroke="#DBEAFE" stroke-width="1"/>
+<circle cx="196" cy="1442" r="26" fill="#2563EB"/>
+<text x="236" y="1440" class="font label">Client UI</text>
+<text x="190" y="1495" class="font text">Login/Register</text>
+<text x="190" y="1525" class="font text">Dashboard</text>
+<text x="190" y="1555" class="font text">Add Transaction</text>
+<line x1="460" y1="1485" x2="555" y2="1485" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="570" y="1390" width="300" height="190" rx="28" fill="#DCFCE7" stroke="#DCFCE7" stroke-width="1"/>
+<circle cx="616" cy="1442" r="26" fill="#16A34A"/>
+<text x="656" y="1440" class="font label">Express Server</text>
+<text x="610" y="1495" class="font text">Routes</text>
+<text x="610" y="1525" class="font text">Controllers</text>
+<text x="610" y="1555" class="font text">Services</text>
+<line x1="880" y1="1485" x2="975" y2="1485" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="990" y="1390" width="300" height="190" rx="28" fill="#FEF3C7" stroke="#FEF3C7" stroke-width="1"/>
+<circle cx="1036" cy="1442" r="26" fill="#D97706"/>
+<text x="1076" y="1440" class="font label">Security Layer</text>
+<text x="1030" y="1495" class="font text">JWT</text>
+<text x="1030" y="1525" class="font text">bcrypt</text>
+<text x="1030" y="1555" class="font text">Validation</text>
+<line x1="1300" y1="1485" x2="1395" y2="1485" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1410" y="1390" width="300" height="190" rx="28" fill="#F3E8FF" stroke="#F3E8FF" stroke-width="1"/>
+<circle cx="1456" cy="1442" r="26" fill="#7C3AED"/>
+<text x="1496" y="1440" class="font label">Database</text>
+<text x="1450" y="1495" class="font text">Users</text>
+<text x="1450" y="1525" class="font text">Accounts</text>
+<text x="1450" y="1555" class="font text">Transactions</text>
+<line x1="1720" y1="1485" x2="1815" y2="1485" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1830" y="1390" width="300" height="190" rx="28" fill="#FFE4E6" stroke="#FFE4E6" stroke-width="1"/>
+<circle cx="1876" cy="1442" r="26" fill="#E11D48"/>
+<text x="1916" y="1440" class="font label">Response</text>
+<text x="1870" y="1495" class="font text">JSON data</text>
+<text x="1870" y="1525" class="font text">Status code</text>
+<text x="1870" y="1555" class="font text">Error message</text>
+<text x="80" y="1760" class="font small">Gợi ý dùng trong Figma: kéo thả file SVG vào canvas, sau đó chỉnh sửa text/màu/layout theo nhóm Arcanine - Basculin - Cascoon.</text>
+</svg>
